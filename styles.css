@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-img {
+    width: 500px;
+    height: auto;
+}
+
+.content-img {
+    width: 200px;
+    height: auto;
+}
