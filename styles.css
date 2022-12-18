@@ -110,21 +110,24 @@ p.subtitle {
 }
 
 .signup-btn {
-  height: 30px;
-  width: 100px;
-  margin-right: 300px;
+  height: 40px;
+  width: 120px;
   border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .normal-signup {
   border: none;
   background-color: #3882f6;
   color: #f9faf8;
+  margin-right: 280px;
 }
 
 .invert-signup {
   background-color: transparent;
-  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  border: 2px solid currentColor;
 }
 
 .content {
@@ -179,5 +182,43 @@ h1.content-title {
 .quote > .quote-by {
   align-self: flex-end;
   font-weight: 700;
+  font-size: 24px;
+}
+
+.sign-up-ad {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 100px;
+}
+
+.blue-wrapper {
+  background-color: #3882f6;
+  flex: auto;
+  padding: 70px 0;
+  display: flex;
+  border-radius: 12px;
+  color: #f9faf8;
+}
+
+.ad-right {
+  flex: 1;
+}
+
+.ad-left {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.ad-left > * {
+  margin-left: 75px;
+}
+
+.ad-left > .ad-title {
   font-size: 24px;
 }
