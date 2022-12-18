@@ -151,6 +151,10 @@ p.subtitle {
   border-radius: 8px;
 }
 
+.content .flex-wrapper .img-container .subtext {
+  color: #4b5563;
+}
+
 h1.content-title {
   color: #1f2937;
   font-size: 32px;
