@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+
+:root {
+  --std-blue: #2e6c3a;
+  --std-white: #f9faf8;
+  --std-grey: #3d4d3e;
+  --blue-grey: #2a332c;
+  --light-grey: #e5e7eb;
+}
 
 * {
   box-sizing: border-box;
@@ -24,7 +34,7 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-  background-color: #1f2937;
+  background-color: var(--blue-grey);
 }
 
 /*
@@ -44,7 +54,7 @@ body {
 
 .nav-bar li,
 .nav-bar li a {
-  color: #e5e7eb;
+  color: var(--light-grey);
 }
 
 .nav-bar li a {
@@ -56,7 +66,7 @@ body {
   margin-left: 300px;
   font-weight: 700;
   font-size: 24px;
-  color: #f9faf8;
+  color: var(--std-white);
 }
 
 .last-list-child {
@@ -100,13 +110,13 @@ body {
 h1.title {
   font-size: 48px;
   font-weight: 900;
-  color: #f9faf8;
+  color: var(--std-white);
   padding: 0;
 }
 
 p.subtitle {
   font-size: 18px;
-  color: #e5e7eb;
+  color: var(--light-grey);
 }
 
 .signup-btn {
@@ -119,14 +129,14 @@ p.subtitle {
 
 .normal-signup {
   border: none;
-  background-color: #3882f6;
-  color: #f9faf8;
+  background-color: var(--std-blue);
+  color: var(--std-white);
   margin-right: 280px;
 }
 
 .invert-signup {
   background-color: transparent;
-  color: #f9faf8;
+  color: var(--std-white);
   border: 2px solid currentColor;
 }
 
@@ -150,23 +160,23 @@ p.subtitle {
 }
 
 .content .flex-wrapper .img-container img {
-  border: 8px solid #3882f6;
+  border: 8px solid var(--std-blue);
   border-radius: 8px;
 }
 
 .content .flex-wrapper .img-container .subtext {
-  color: #4b5563;
+  color: var(--std-grey);
 }
 
 h1.content-title {
-  color: #1f2937;
+  color: var(--blue-grey);
   font-size: 32px;
   font-weight: 900;
 }
 
 .quote {
-  background-color: #e5e7eb;
-  color: #1f2937;
+  background-color: var(--light-grey);
+  color: var(--blue-grey);
   display: flex;
   flex-direction: column;
   padding: 100px 200px;
@@ -195,12 +205,12 @@ h1.content-title {
 }
 
 .blue-wrapper {
-  background-color: #3882f6;
+  background-color: var(--std-blue);
   flex: auto;
   padding: 70px 0;
   display: flex;
   border-radius: 12px;
-  color: #f9faf8;
+  color: var(--std-white);
 }
 
 .ad-right {
@@ -227,7 +237,24 @@ h1.content-title {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1f2937;
+  background-color: var(--blue-grey);
   padding: 20px;
-  color: #f9faf8;
+  color: var(--std-white);
+}
+
+
+/* My Own styles :) */
+
+li.logo.fancy {
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 32px;
+}
+
+.cursive-font {
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+.header-img {
+  box-shadow: 0 0 20px;
 }
