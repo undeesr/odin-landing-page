@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800;&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -53,7 +53,7 @@ body {
 
 .nav-bar .logo {
   margin-right: auto;
-  margin-left: 100px;
+  margin-left: 300px;
   font-weight: 700;
   font-size: 24px;
   color: #f9faf8;
@@ -99,7 +99,7 @@ body {
 
 h1.title {
   font-size: 48px;
-  font-weight: 800;
+  font-weight: 900;
   color: #f9faf8;
   padding: 0;
 }
@@ -158,5 +158,26 @@ p.subtitle {
 h1.content-title {
   color: #1f2937;
   font-size: 32px;
-  font-weight: 800;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 100px 200px;
+  justify-content: center;
+}
+
+.quote > .quote-body {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.quote > .quote-by {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 24px;
 }
