@@ -245,10 +245,10 @@ h1.content-title {
 
 /* My Own styles :) */
 
-li.logo.fancy {
-  font-weight: 400;
-  font-family: 'Bebas Neue', cursive;
-  font-size: 32px;
+.fancy {
+  font-weight: 400 I !important;
+  font-family: 'Bebas Neue', cursive !important;
+  font-size: 32px !important;
 }
 
 .cursive-font {
